@@ -7,7 +7,8 @@ from builtins import range
 import sys
 
 import numpy as np
-import iDynTree; iDynTree.init_helpers(); iDynTree.init_numpy_helpers()
+import idyntree.bindings as IDynTree
+import iDynTree.init_helpers(); iDynTree.init_numpy_helpers()
 
 from identify import Identification
 from identification.model import Model

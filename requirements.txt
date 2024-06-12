@@ -1,6 +1,6 @@
 numpy
 scipy
-sympy
+sympy ==1.0
 pyyaml
 trimesh
 cvxopt
